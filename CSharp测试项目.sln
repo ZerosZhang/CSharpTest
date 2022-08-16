@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001.监控数值变化", "001.监控数值变化\001.监控数值变化.csproj", "{320FF30E-FBB0-40EE-9FCC-F2204768EE18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000.更新ReadMe文件", "000.更新ReadMe文件\000.更新ReadMe文件.csproj", "{2A4F9220-9FDA-409A-9D2D-2752DA83CBA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002.倒计时功能", "002.倒计时功能\002.倒计时功能.csproj", "{26932D96-F59E-4220-9DD8-CEC31521FF24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{320FF30E-FBB0-40EE-9FCC-F2204768EE18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{320FF30E-FBB0-40EE-9FCC-F2204768EE18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{320FF30E-FBB0-40EE-9FCC-F2204768EE18}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2A4F9220-9FDA-409A-9D2D-2752DA83CBA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2A4F9220-9FDA-409A-9D2D-2752DA83CBA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2A4F9220-9FDA-409A-9D2D-2752DA83CBA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2A4F9220-9FDA-409A-9D2D-2752DA83CBA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26932D96-F59E-4220-9DD8-CEC31521FF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26932D96-F59E-4220-9DD8-CEC31521FF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26932D96-F59E-4220-9DD8-CEC31521FF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26932D96-F59E-4220-9DD8-CEC31521FF24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
