@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001.监控数值变化", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002.倒计时功能", "002.倒计时功能\002.倒计时功能.csproj", "{26932D96-F59E-4220-9DD8-CEC31521FF24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003.后台线程", "003.后台线程\003.后台线程.csproj", "{4139A42A-B584-4636-94F5-0C1D51E22041}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{26932D96-F59E-4220-9DD8-CEC31521FF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26932D96-F59E-4220-9DD8-CEC31521FF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26932D96-F59E-4220-9DD8-CEC31521FF24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4139A42A-B584-4636-94F5-0C1D51E22041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4139A42A-B584-4636-94F5-0C1D51E22041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4139A42A-B584-4636-94F5-0C1D51E22041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4139A42A-B584-4636-94F5-0C1D51E22041}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
