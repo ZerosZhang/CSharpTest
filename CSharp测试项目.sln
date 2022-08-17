@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004.委托和事件", "004.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005.Invoke", "005.Invoke\005.Invoke.csproj", "{7AA566A6-504E-4D17-B49F-8AE04570E0EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006.Invoke和BeginInvoke的区别", "006.Invoke和BeginInvoke的区别\006.Invoke和BeginInvoke的区别.csproj", "{1647BA00-8BAE-4DC0-AFC3-BEE85C9E9AE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007.指示灯的简易实现", "007.指示灯的简易实现\007.指示灯的简易实现.csproj", "{9B48DE53-DDB3-4C13-A04A-51DDD91CE138}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{7AA566A6-504E-4D17-B49F-8AE04570E0EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AA566A6-504E-4D17-B49F-8AE04570E0EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AA566A6-504E-4D17-B49F-8AE04570E0EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1647BA00-8BAE-4DC0-AFC3-BEE85C9E9AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1647BA00-8BAE-4DC0-AFC3-BEE85C9E9AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1647BA00-8BAE-4DC0-AFC3-BEE85C9E9AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1647BA00-8BAE-4DC0-AFC3-BEE85C9E9AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B48DE53-DDB3-4C13-A04A-51DDD91CE138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B48DE53-DDB3-4C13-A04A-51DDD91CE138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B48DE53-DDB3-4C13-A04A-51DDD91CE138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B48DE53-DDB3-4C13-A04A-51DDD91CE138}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
