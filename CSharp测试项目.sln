@@ -17,6 +17,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006.Invoke和BeginInvoke的
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007.指示灯的简易实现", "007.指示灯的简易实现\007.指示灯的简易实现.csproj", "{9B48DE53-DDB3-4C13-A04A-51DDD91CE138}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008.@符号", "008.@符号\008.@符号.csproj", "{AA5438D2-85DE-4091-884D-1611A05BE032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009.$符号格式化字符串", "009.$符号格式化字符串\009.$符号格式化字符串.csproj", "{47D691C9-C62B-4065-A301-F8E7EAE28021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010.图片显示控件", "010.图片显示控件\010.图片显示控件.csproj", "{E9D1BF02-17F4-499C-BEB6-F6D264064E50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +57,18 @@ Global
 		{9B48DE53-DDB3-4C13-A04A-51DDD91CE138}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B48DE53-DDB3-4C13-A04A-51DDD91CE138}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B48DE53-DDB3-4C13-A04A-51DDD91CE138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA5438D2-85DE-4091-884D-1611A05BE032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA5438D2-85DE-4091-884D-1611A05BE032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA5438D2-85DE-4091-884D-1611A05BE032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA5438D2-85DE-4091-884D-1611A05BE032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47D691C9-C62B-4065-A301-F8E7EAE28021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47D691C9-C62B-4065-A301-F8E7EAE28021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47D691C9-C62B-4065-A301-F8E7EAE28021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47D691C9-C62B-4065-A301-F8E7EAE28021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9D1BF02-17F4-499C-BEB6-F6D264064E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9D1BF02-17F4-499C-BEB6-F6D264064E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9D1BF02-17F4-499C-BEB6-F6D264064E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9D1BF02-17F4-499C-BEB6-F6D264064E50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
