@@ -3,9 +3,10 @@
 
 001.[监控数值变化](https://www.yuque.com/zerosyujian/rbdba1/lup1yf)
 
-<<<<<<< HEAD
 002.[倒计时功能](https://www.yuque.com/zerosyujian/rbdba1/fwpop4)
 
-=======
 003.[后台线程](https://www.yuque.com/zerosyujian/rbdba1/awavbu)
->>>>>>> 08782de6b558aab6f54b617dac2fd04d4c3c456d
+
+004.[委托和事件](https://www.yuque.com/zerosyujian/rbdba1/gavxze)
+
+005.[Invoke函数](https://www.yuque.com/zerosyujian/rbdba1/ucxeo4)

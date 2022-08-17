@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002.倒计时功能", "002.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003.后台线程", "003.后台线程\003.后台线程.csproj", "{4139A42A-B584-4636-94F5-0C1D51E22041}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004.委托和事件", "004.委托\004.委托和事件.csproj", "{1DFA7C16-23B8-48CA-8B27-C1721C15D30E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005.Invoke", "005.Invoke\005.Invoke.csproj", "{7AA566A6-504E-4D17-B49F-8AE04570E0EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{4139A42A-B584-4636-94F5-0C1D51E22041}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4139A42A-B584-4636-94F5-0C1D51E22041}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4139A42A-B584-4636-94F5-0C1D51E22041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DFA7C16-23B8-48CA-8B27-C1721C15D30E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DFA7C16-23B8-48CA-8B27-C1721C15D30E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DFA7C16-23B8-48CA-8B27-C1721C15D30E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DFA7C16-23B8-48CA-8B27-C1721C15D30E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA566A6-504E-4D17-B49F-8AE04570E0EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA566A6-504E-4D17-B49F-8AE04570E0EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA566A6-504E-4D17-B49F-8AE04570E0EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA566A6-504E-4D17-B49F-8AE04570E0EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
