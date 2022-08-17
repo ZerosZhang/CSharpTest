@@ -16,10 +16,8 @@ namespace _010.图片显示控件
         private enum WindowState
         {
             MODE_NONE,                                  // 初始值：无模式
-            MODE_ZOOM,                                  // 缩放模式,ROI与图片一起缩放
-            MODE_MOVE_IMAG,                             // 移动图片
-            MODE_EDIT_ROI,                              // 移动ROI的角点，包含移动ROI和编辑ROI
-            MODE_CREATE_ROI                             // 创建ROI带角点，包含移动ROI和编辑ROI
+            MODE_ZOOM_IMAGE,                                  // 缩放模式,ROI与图片一起缩放
+            MODE_MOVE_IMAGE,                             // 移动图片
         }
 
         private bool mMousePressed = false;
@@ -59,7 +57,7 @@ namespace _010.图片显示控件
             if (e.Button == MouseButtons.Left)
             {
                 mMousePressed = true;
-                mWindowState = WindowState.MODE_MOVE_IMAG;
+                mWindowState = WindowState.MODE_MOVE_IMAGE;
                 mMouseDownX = e.X;
                 mMouseDownY = e.Y;
             }
@@ -87,11 +85,10 @@ namespace _010.图片显示控件
             // 在鼠标按下的情况下，如果条件满足，执行图片移动或者ROI移动
             if (mMousePressed)
             {
-                int motionX, motionY;
-                if (mWindowState == WindowState.MODE_MOVE_IMAG)
+                if (mWindowState == WindowState.MODE_MOVE_IMAGE)
                 {
-                    motionX = (int)(e.X - mMouseDownX);
-                    motionY = (int)(e.Y - mMouseDownY);
+                    int motionX = (int)(e.X - mMouseDownX);
+                    int motionY = (int)(e.Y - mMouseDownY);
 
                     if ((motionX != 0) || (motionY != 0))
                     {
@@ -160,8 +157,6 @@ namespace _010.图片显示控件
             ActivityPictureBox.Location = new Point((int)(ActivityPictureBox.Location.X - ((_center_x - ActivityPictureBox.Location.X) / (ActivityPictureBox.Width - interval_x) * interval_x)),
                                                     (int)(ActivityPictureBox.Location.Y - ((_center_y - ActivityPictureBox.Location.Y) / (ActivityPictureBox.Height - interval_y) * interval_y)));
         }
-
-
 
         /// <summary>
         /// 给控件添加图片
