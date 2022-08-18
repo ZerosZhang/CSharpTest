@@ -47,6 +47,22 @@ namespace _011.Json和Xml序列化
             richTextBox1.AppendText($"保存对象到{_xml_path}中\r\n");
         }
 
+        private void button3_Click(object sender, System.EventArgs e)
+        {
+            richTextBox1.Clear();
+            string _list_path = "TestList.json";
+            ListClass _json = LoadConfig_Json<ListClass>(_list_path);
+            richTextBox1.AppendText($"读取{_list_path}中的对象\r\n");
+
+            if (_json == null)
+            {
+                _json = new ListClass();
+                richTextBox1.AppendText("首次创建新的对象\r\n");
+            }
+            SaveConfig_Json(_json, _list_path);
+            richTextBox1.AppendText($"保存对象到{_list_path}中\r\n");
+        }
+
         /// <summary>
         /// 读取Json文件，转化为任意配置结构JsonClass类型
         /// </summary>
@@ -184,6 +200,31 @@ namespace _011.Json和Xml序列化
             info = 1,
             warning = 2,
             error = 3
+        }
+    }
+
+    public class ListClass
+    {
+        public int i = 0;
+        public string str = "测试XML序列化";
+        private double[] array = new double[5];
+        public List<float> list = new List<float>();
+        public LogLevel _level = LogLevel.debug;
+
+        public enum LogLevel
+        {
+            debug = 0,
+            info = 1,
+            warning = 2,
+            error = 3
+        }
+
+        public ListClass()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                list.Add(i);
+            }
         }
     }
 }
