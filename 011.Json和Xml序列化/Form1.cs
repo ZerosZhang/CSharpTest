@@ -24,8 +24,8 @@ namespace _011.Json和Xml序列化
 
             if (_json == null)
             {
-                _json = new JsonClass();
-                richTextBox1.AppendText("首次创建新的对象\r\n");
+                MessageBox.Show("读取失败...");
+                return;
             }
             SaveConfig_Json(_json, _json_path);
             richTextBox1.AppendText($"保存对象到{_json_path}中\r\n");
@@ -40,8 +40,8 @@ namespace _011.Json和Xml序列化
 
             if (_xml == null)
             {
-                _xml = new XmlClass();
-                richTextBox1.AppendText("首次创建新的对象\r\n");
+                MessageBox.Show("读取失败...");
+                return;
             }
             SaveConfig_Xml(_xml, _xml_path);
             richTextBox1.AppendText($"保存对象到{_xml_path}中\r\n");
@@ -73,7 +73,7 @@ namespace _011.Json和Xml序列化
         {
             if (!File.Exists(_path))
             {
-                return default(JsonClass);
+                return System.Activator.CreateInstance<JsonClass>();
             }
             try
             {
@@ -114,10 +114,13 @@ namespace _011.Json和Xml序列化
         /// <returns></returns>
         public static XmlClass LoadConfig_Xml<XmlClass>(string _path)
         {
-            if (!File.Exists(_path)){return default(XmlClass);}
+            if (!File.Exists(_path))
+            {
+                return System.Activator.CreateInstance<XmlClass>();
+            }
 
             try
-            {            
+            {
                 // using的写法可以自动关闭FileStream
                 using (FileStream _stream = File.OpenRead(_path))
                 {
