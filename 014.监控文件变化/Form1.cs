@@ -19,7 +19,7 @@ namespace _014.监控文件变化
             watcher.Path = mDirectoryPath;
             watcher.Filter = "*.txt";
             watcher.IncludeSubdirectories = true;
-            watcher.NotifyFilter = NotifyFilters.LastWrite | NotifyFilters.CreationTime | NotifyFilters.FileName;
+            watcher.NotifyFilter = NotifyFilters.LastWrite | NotifyFilters.FileName;
             watcher.Created += Watcher_Created;
             watcher.Changed += Watcher_Changed;
             watcher.EnableRaisingEvents = true;
