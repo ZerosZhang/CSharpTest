@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012.PropertyGrid控件使�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "013.防止程序二次启动", "013.防止程序二次启动\013.防止程序二次启动.csproj", "{ED38818A-22C4-48BF-85D9-4A66DAA24C43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "014.监控文件变化", "014.监控文件变化\014.监控文件变化.csproj", "{430C2691-09C6-4D04-8917-642547533AA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{ED38818A-22C4-48BF-85D9-4A66DAA24C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED38818A-22C4-48BF-85D9-4A66DAA24C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED38818A-22C4-48BF-85D9-4A66DAA24C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{430C2691-09C6-4D04-8917-642547533AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{430C2691-09C6-4D04-8917-642547533AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{430C2691-09C6-4D04-8917-642547533AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{430C2691-09C6-4D04-8917-642547533AA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
