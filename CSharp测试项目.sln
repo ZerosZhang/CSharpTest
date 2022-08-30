@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "013.防止程序二次启�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "014.监控文件变化", "014.监控文件变化\014.监控文件变化.csproj", "{430C2691-09C6-4D04-8917-642547533AA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "015.回调函数", "015.回调函数\015.回调函数.csproj", "{98BCD99E-C8FC-4A39-8A19-F4D18B731DBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{430C2691-09C6-4D04-8917-642547533AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{430C2691-09C6-4D04-8917-642547533AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{430C2691-09C6-4D04-8917-642547533AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98BCD99E-C8FC-4A39-8A19-F4D18B731DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98BCD99E-C8FC-4A39-8A19-F4D18B731DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98BCD99E-C8FC-4A39-8A19-F4D18B731DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98BCD99E-C8FC-4A39-8A19-F4D18B731DBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
