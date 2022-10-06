@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.Socket编程", "16.Socke
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.AutoResetEvent和ManualResetEvent", "17.AutoResetEvent和ManualResetEvent\17.AutoResetEvent和ManualResetEvent.csproj", "{6C446A53-7CB6-4B31-8CED-BF14E2F5D1B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.压缩与解压缩", "18.压缩与解压缩\18.压缩与解压缩.csproj", "{365937E8-7FB4-4108-A6A3-B0A723934548}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{6C446A53-7CB6-4B31-8CED-BF14E2F5D1B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C446A53-7CB6-4B31-8CED-BF14E2F5D1B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C446A53-7CB6-4B31-8CED-BF14E2F5D1B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{365937E8-7FB4-4108-A6A3-B0A723934548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{365937E8-7FB4-4108-A6A3-B0A723934548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{365937E8-7FB4-4108-A6A3-B0A723934548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{365937E8-7FB4-4108-A6A3-B0A723934548}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

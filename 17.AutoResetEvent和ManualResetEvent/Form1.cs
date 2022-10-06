@@ -14,8 +14,8 @@ namespace _17.AutoResetEvent和ManualResetEvent
     public partial class Form1 : Form
     {
         // 初始值为true，waitone不会阻塞，否则默认阻塞
-        //ManualResetEvent _lock = new ManualResetEvent(false);
-        AutoResetEvent _lock = new AutoResetEvent(false);
+        ManualResetEvent _lock = new ManualResetEvent(false);
+        //AutoResetEvent _lock = new AutoResetEvent(false);
 
         public Form1()
         {
