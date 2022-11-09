@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32510.428
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001.监控数值变化", "001.监控数值变化\001.监控数值变化.csproj", "{320FF30E-FBB0-40EE-9FCC-F2204768EE18}"
 EndProject
@@ -38,6 +38,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.AutoResetEvent和ManualResetEvent", "17.AutoResetEvent和ManualResetEvent\17.AutoResetEvent和ManualResetEvent.csproj", "{6C446A53-7CB6-4B31-8CED-BF14E2F5D1B6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.压缩与解压缩", "18.压缩与解压缩\18.压缩与解压缩.csproj", "{365937E8-7FB4-4108-A6A3-B0A723934548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.特性与扩展函数", "19.特性与扩展函数\19.特性与扩展函数.csproj", "{041E4909-2E8E-4B2E-A267-AC573372AA18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{365937E8-7FB4-4108-A6A3-B0A723934548}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{365937E8-7FB4-4108-A6A3-B0A723934548}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{365937E8-7FB4-4108-A6A3-B0A723934548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{041E4909-2E8E-4B2E-A267-AC573372AA18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041E4909-2E8E-4B2E-A267-AC573372AA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041E4909-2E8E-4B2E-A267-AC573372AA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041E4909-2E8E-4B2E-A267-AC573372AA18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
