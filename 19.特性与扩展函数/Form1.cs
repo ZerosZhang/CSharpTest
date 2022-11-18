@@ -13,11 +13,10 @@ namespace _19.特性与扩展函数
     public partial class Form1 : Form
     {
         Config _config = new Config(-10, 10);
-        Config _config2 = new Config(-20, 20);
         public Form1()
         {
             InitializeComponent();
-            propertyGrid1.SelectedObjects= new Config[]{ _config, _config2};
+            propertyGrid1.SelectedObject = _config;
         }
 
         private void button_check_valid_Click(object sender, EventArgs e)
