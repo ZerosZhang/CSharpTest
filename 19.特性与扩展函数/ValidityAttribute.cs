@@ -19,6 +19,9 @@ namespace _19.特性与扩展函数
         public abstract bool CheckValid(object _value);
     }
 
+    /// <summary>
+    /// 检查类的扩展类，使用扩展函数进行检查
+    /// </summary>
     public static class ValidityAttributeExtend
     {
         public static bool Valid<T>(this T t)
@@ -50,6 +53,9 @@ namespace _19.特性与扩展函数
         }
     }
 
+    /// <summary>
+    /// 检查变量的范围
+    /// </summary>
     [AttributeUsage(AttributeTargets.Property)]
     internal class RangeAttribute : ValidityAttribute
     {
@@ -69,6 +75,9 @@ namespace _19.特性与扩展函数
         }
     }
 
+    /// <summary>
+    /// 检查变量是否全是数字
+    /// </summary>
     [AttributeUsage(AttributeTargets.Property)]
     internal class NumberAttribute : ValidityAttribute
     {

@@ -10,9 +10,9 @@ namespace _19.特性与扩展函数
     internal class Config
     {
         [Number, DisplayName("数字")]
-        public double Number { get; set; }
+        public int Number { get; set; }
         [Range(0,256), DisplayName("灰度值")]
-        public double GrayValue { get; set; }
+        public int GrayValue { get; set; }
 
         public Config(int _number, int _gray_value)
         {
