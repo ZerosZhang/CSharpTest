@@ -17,7 +17,6 @@ namespace _20.多线程方式
     public partial class Form1 : Form
     {
         private readonly HttpClient httpClient = new HttpClient();
-        private object _lock = new object();
 
         public Form1()
         {
