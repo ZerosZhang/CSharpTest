@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.压缩与解压缩", "18
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.特性与扩展函数", "19.特性与扩展函数\19.特性与扩展函数.csproj", "{041E4909-2E8E-4B2E-A267-AC573372AA18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20.多线程方式", "20.多线程方式\20.多线程方式.csproj", "{03822E2D-0245-468B-ABF7-F9095689E90D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{041E4909-2E8E-4B2E-A267-AC573372AA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{041E4909-2E8E-4B2E-A267-AC573372AA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{041E4909-2E8E-4B2E-A267-AC573372AA18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03822E2D-0245-468B-ABF7-F9095689E90D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03822E2D-0245-468B-ABF7-F9095689E90D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03822E2D-0245-468B-ABF7-F9095689E90D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03822E2D-0245-468B-ABF7-F9095689E90D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
